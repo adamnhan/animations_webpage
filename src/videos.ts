@@ -1,3 +1,6 @@
+import pic1 from "/assets/8k_earth_daymap.jpg";
+import pic2 from "/assets/8k_stars_milkyway.jpg";
+import pic3 from "/assets/planet_angles.png";
 
 export interface Video {
   id: number;
@@ -20,10 +23,6 @@ export const videos: Video[] = [
     title: "Solar System Animation v2",
     url: "https://www.youtube.com/embed/_S9Nqtask8k", // replace with your link
     notes: "Changed the orbits of the planets to be realistic, added in a milky way/stars background, and did a close up of the Earth with a more realistic shader.",
-    images: [
-      "/assets/8k_earth_daymap.jpg",
-      "/assets/8k_stars_milkyway.jpg",
-      "/assets/planet_angles.png",
-    ]
+    images: [pic1, pic2, pic3]
   }
 ]
