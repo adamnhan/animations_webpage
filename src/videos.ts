@@ -1,6 +1,6 @@
-import pic1 from "/Users/Adam Nhan/animations_webpage/src/assets/8k_earth_daymap.jpg"
-import pic2 from "/Users/Adam Nhan/animations_webpage/src/assets/8k_stars_milkyway.jpg"
-import pic3 from "/Users/Adam Nhan/animations_webpage/src/assets/planet_angles.png"
+import pic1 from "./assets/8k_earth_daymap.jpg"
+import pic2 from "./assets/8k_stars_milkyway.jpg"
+import pic3 from "./assets/planet_angles.png"
 
 
 export interface Video {
