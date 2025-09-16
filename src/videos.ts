@@ -1,5 +1,5 @@
 import pic1 from "./assets/8k_earth_daymap.jpg"
-import pic2 from "./assets/8k_stars_milkyway.jpg"
+import pic2 from "./assets/8k_stars_milky_way.jpg"
 import pic3 from "./assets/planet_angles.png"
 
 
