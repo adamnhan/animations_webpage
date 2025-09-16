@@ -93,7 +93,7 @@ export default function App() {
   return (
     // keeping your padding hack so it “looks centered” to you
     <div style={{ paddingLeft: "200px", paddingTop: "2rem", paddingRight: "2rem" }}>
-      <h1 style={{ marginBottom: "2rem" }}>My Animations</h1>
+      <h1 style={{ marginBottom: "2rem" }}>Project 1 - Adam Nhan, 9/16/2025</h1>
 
       <div
         style={{
