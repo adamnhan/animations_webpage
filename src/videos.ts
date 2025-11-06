@@ -6,6 +6,13 @@ import pic5 from "./assets/ball_bouncing2.png"
 import pic6 from "./assets/ball_bouncing3.png"
 import pic7 from "./assets/ball_bouncing4.png"
 import pic8 from "./assets/storyboard.jpg"
+import pic9 from "./assets/Screenshot 2025-11-06 095325.png"
+import pic10 from "./assets/Screenshot 2025-11-06 095426.png"
+import pic11 from "./assets/Screenshot 2025-11-06 095533.png"
+import pic12 from "./assets/Screenshot 2025-11-06 095638.png"
+import pic13 from "./assets/Screenshot 2025-11-06 095718.png"
+import pic14 from "./assets/Screenshot 2025-11-06 095811.png"
+import pic15 from "./assets/IMG_5068.jpg"
 
 
 export interface Video {
@@ -37,5 +44,12 @@ export const videos: Video[] = [
     url: "https://www.youtube.com/embed/__Q0fF2ifOQ",
     notes: "This animation, titled 'The Climb', tells a short story of perseverance as a small ball repeatedly tries to bounce up a staircase. At first, it falls short and tumbles down, but after a little creative thinking, it finally reaches the top and succeeds. The animation applies the Disney principles of Squash and Stretch, Anticipation, Arcs, and Timing & Spacing. Squash and Stretch are shown in images 3 and 4, highlighting the ball’s compression upon landing and its elongation during jumps. Anticipation is demonstrated in image 2, where the ball pauses and squashes slightly before leaping upward. Arcs are visible in image 1, showing the natural curved motion of the ball’s trajectory as it bounces up the stairs. The final image displays my storyboard, outlining the narrative progression from struggle to success. All images are clickable for a closer look, allowing detailed viewing of the animation’s key principles and stages.",
     images: [pic4, pic5, pic6, pic7, pic8]
+  },
+  {
+    id: 4,
+    title: "P4, Rube Goldberg Machine",
+    url: "https://www.youtube.com/embed/2zW8pA_9ICU",
+    notes: "This short animation depicts a Rube Goldberg machine designed to turn on a lamp through a fun and seamless chain reaction. The sequence begins with a shiny metal ball resting on a wooden ramp. As the animation starts, the ball rolls down the ramp, gaining momentum until it collides with a long wooden lever positioned nearby. The impact causes one end of the lever to shift right and hit a large domino off its edge, hitting smaller dominos along the way. The last domino tips forward and falls onto a small toy car waiting in front of it, transferring the motion as it lands. The toy car then rolls forward smoothly across the surface until it strikes a switch connected to a lamp. Upon contact, the switch is pressed, and the lamp suddenly glows to life, illuminating the scene with a green light that signals the successful completion of the machine. Each object, the ramp, metal ball, lever, book, car, and lamp, works together to create a continuous flow of motion that combines realistic physics and timing with clean, purposeful animation to bring the story to life.",
+    images: [pic9, pic10, pic11, pic12, pic13, pic14, pic15]
   }
 ]
