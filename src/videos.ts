@@ -13,6 +13,10 @@ import pic12 from "./assets/Screenshot 2025-11-06 095638.png"
 import pic13 from "./assets/Screenshot 2025-11-06 095718.png"
 import pic14 from "./assets/Screenshot 2025-11-06 095811.png"
 import pic15 from "./assets/IMG_5068.jpg"
+import pic16 from "./assets//pic1_p5.png"
+import pic17 from "./assets/pic2_p5.png"
+import pic18 from "./assets/pic3_p5.png"
+import pic19 from "./assets/sr2ee070657ea0a.png"
 
 
 export interface Video {
@@ -51,5 +55,12 @@ export const videos: Video[] = [
     url: "https://www.youtube.com/embed/2zW8pA_9ICU",
     notes: "This short animation depicts a Rube Goldberg machine designed to turn on a lamp through a fun and seamless chain reaction. The sequence begins with a shiny metal ball resting on a wooden ramp. As the animation starts, the ball rolls down the ramp, gaining momentum until it collides with a long wooden lever positioned nearby. The impact causes one end of the lever to shift right and hit a large domino off its edge, hitting smaller dominos along the way. The last domino tips forward and falls onto a small toy car waiting in front of it, transferring the motion as it lands. The toy car then rolls forward smoothly across the surface until it strikes a switch connected to a lamp. Upon contact, the switch is pressed, and the lamp suddenly glows to life, illuminating the scene with a green light that signals the successful completion of the machine. Each object, the ramp, metal ball, lever, book, car, and lamp, works together to create a continuous flow of motion that combines realistic physics and timing with clean, purposeful animation to bring the story to life.",
     images: [pic9, pic10, pic11, pic12, pic13, pic14, pic15]
+  },
+  {
+    id: 5,
+    title: "P5, Domino Reveal Animation",
+    url: "https://www.youtube.com/embed/hPrxE_rfwAg",
+    notes: "This project uses a Python script in Maya to build and animate a grid of 900 dominoes based on a dice image. The script reads the image, turns each pixel into a colored domino, sets up dynamics, and then nudges a full row so the chain reaction starts. As the dominoes topple, the colored pattern comes into view from the main camera and then settles into a clean final pose. Lighting and camera placement are also created in the script so the whole reveal runs from a single button press.",
+    images: [pic16, pic17, pic18, pic19]
   }
 ]
