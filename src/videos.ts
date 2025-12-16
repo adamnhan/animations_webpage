@@ -17,6 +17,10 @@ import pic16 from "./assets//pic1_p5.png"
 import pic17 from "./assets/pic2_p5.png"
 import pic18 from "./assets/pic3_p5.png"
 import pic19 from "./assets/sr2ee070657ea0a.png"
+import pic20 from "./assets/button_scene_1.0001.png"
+import pic21 from "./assets/button_scene_1.0347.png"
+import pic22 from "./assets/button_scene_1.0834.png"
+import pic23 from "./assets/storyboardfinal.jpg"
 
 
 export interface Video {
@@ -62,5 +66,13 @@ export const videos: Video[] = [
     url: "https://www.youtube.com/embed/hPrxE_rfwAg",
     notes: "This project uses a Python script in Maya to build and animate a grid of 900 dominoes based on a dice image. The script reads the image, turns each pixel into a colored domino, sets up dynamics, and then nudges a full row so the chain reaction starts. As the dominoes topple, the colored pattern comes into view from the main camera and then settles into a clean final pose. Lighting and camera placement are also created in the script so the whole reveal runs from a single button press.",
     images: [pic16, pic17, pic18, pic19]
-  }
+  },
+  {
+  id: 6,
+  title: "Final, The Button You Shouldn’t Press",
+  url: "https://www.youtube.com/embed/azI_YVaaEV0",
+  notes: "For my final, I made a short suspense/comedy animation built around one simple prop: a big red button. The scene starts quiet and focused, with the button centered under dramatic lighting. A hand slowly creeps into frame and hesitates for a long moment, hovering just above the surface like it’s trying to decide if pressing it is a terrible idea. It finally commits, immediately recoils in fear, and then realizes nothing happened. After a few more impatient presses with no result, the hand relaxes and ends with a thumbs up. I leaned heavily on anticipation and timing to sell the hesitation, used snappier spacing for the recoil and repeated presses, and kept the camera locked so the acting and staging stayed clear. Everything in the scene was modeled, animated, shaded, and lit in Maya, then rendered as a frame sequence and compiled into the final video.",
+  images: [pic20, pic21, pic22, pic23]
+}
+
 ]
